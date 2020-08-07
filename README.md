@@ -29,7 +29,7 @@ To add multiple edges to a graph:
 ```
 g.extend([(x, x + 1) for x in range(42)])
 ```
-To see information about current order an size of the graph:
+To see information about current order and size of the graph:
 ```buildoutcfg
 g.order()
 g.size()
